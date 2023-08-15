@@ -1,0 +1,5 @@
+<root>
+    <item name='org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager testEntityManager(jakarta.persistence.EntityManagerFactory) 0'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
