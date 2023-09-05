@@ -24,7 +24,7 @@ public class SpringDocConfiguration {
                 )
                 .externalDocs(new ExternalDocumentation()
                         .description("Link para o GitHub do Projeto")
-                        .url("https://github.com/Allanfd12/gastos-recife-back")
+                        .url("https://github.com/rpablo30/despesas_orcamentaria_backend")
                 );
     }
 }

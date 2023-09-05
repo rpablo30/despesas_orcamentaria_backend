@@ -25,7 +25,7 @@ public class SeederDatabase {
         long qtd = despesasRepository.count();
 
         if (qtd != 0) return;
-        System.out.println("Iniciando a carga de dados...");
+        System.out.println("Iniciando a aplicação ...");
 
         try (CSVReader reader = new CSVReader(new FileReader("src/main/resources/despesas.csv"))) {
             List<DespesasModel> despesasList = new CsvToBeanBuilder<DespesasModel>(reader)
