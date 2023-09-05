@@ -16,7 +16,7 @@ public class GastosRecifeApplication {
 
 
 	@GetMapping("/")
-	@Operation(summary = "Verifica se a API está funcionando")
+	@Operation(summary = "Teste Api")
 	public String hello() {
 		return "I'm working!";
 	}
